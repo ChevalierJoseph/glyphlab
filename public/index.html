@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GlyphLab — dessin de lettres en vecto</title>
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="mark">
+    <span class="mark-name">GlyphLab</span>
+    <span class="mark-sub">dessin de lettres en vecto · mistral-small-latest</span>
+  </div>
+</header>
+
+<nav class="chips" id="chips" aria-label="Lettres rapides"></nav>
+
+<main class="log" id="log" aria-live="polite"></main>
+
+<form class="composer" id="form">
+  <input id="input" type="text" autocomplete="off" spellcheck="false"
+         placeholder="Ex. : dessine la lettre R en vecto" autofocus>
+  <button type="submit" id="send" disabled>Envoyer</button>
+</form>
+
+<script src="/app.js"></script>
+</body>
+</html>
